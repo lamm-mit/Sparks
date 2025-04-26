@@ -1,4 +1,4 @@
-# Sparks
+# SPARKS
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/bdc0a774-85b8-4cbc-8d31-1ec5bf7542b2" width="300" alt="SPARKS"/>
