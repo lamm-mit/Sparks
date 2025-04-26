@@ -7,4 +7,3 @@ Massachusetts Institute of Technology
 *mbuehler@MIT.EDU
 
 
-![Fig_1](https://github.com/user-attachments/assets/3cae1052-427a-407c-8c9d-629111a3c070)
