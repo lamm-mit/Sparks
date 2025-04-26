@@ -1,8 +1,8 @@
-# SPARKS
-
 <div align="center">
   <img src="https://github.com/user-attachments/assets/bdc0a774-85b8-4cbc-8d31-1ec5bf7542b2" width="300" alt="SPARKS"/>
 </div>
+
+# SPARKS
 
 ## Multi-modal, multi-agent AI model capable of independently conducting research by formulating hypotheses, performing experiments, and adapting its strategy.
 A. Ghafarollahi, M.J. Buehler*
