@@ -4,14 +4,20 @@
 
 # SPARKS
 
-Advances in artificial intelligence (AI) promise autonomous discovery, yet most systems still resurface knowledge latent in their training data. We present Sparks, a multi-modal multi-agent AI model that executes the entire discovery cycle that includes hypothesis generation, experiment design and iterative refinement to develop generalizable principles and a report without human intervention.
-
-## Multi-modal, multi-agent AI model capable of independently conducting research by formulating hypotheses, performing experiments, and adapting its strategy.
 A. Ghafarollahi, M.J. Buehler*
 
 Massachusetts Institute of Technology
 
 *mbuehler@MIT.EDU
+
+Advances in artificial intelligence (AI) promise autonomous discovery, yet most systems still resurface knowledge latent in their training data. We present **Sparks**, a multi-modal multi-agent AI model that executes the entire discovery cycle that includes hypothesis generation, experiment design and iterative refinement to develop generalizable principles and a report without human intervention.
+
+Applied to protein science, Sparks uncovered two previously unknown phenomena: (i) a length-dependent mechanical crossover whereby beta-sheet-biased peptides surpass alpha-helical ones in unfolding force beyond ~80 residues, establishing a new design principle for peptide mechanics; and (ii) a chain-length/secondary-structure stability map revealing unexpectedly robust beta-sheet-rich architectures and a ``frustration zone'' of high variance in mixed alpha/beta folds. 
+
+These findings emerged from fully self-directed reasoning cycles that combined generative sequence design, high-accuracy structure prediction and physics-aware property models, with paired generation-and-reflection agents enforcing self-correction and reproducibility. The key result is that  Sparks can independently conduct rigorous scientific inquiry and identify previously unknown scientific principles.
+
+## Multi-modal, multi-agent AI model capable of independently conducting research by formulating hypotheses, performing experiments, and adapting its strategy.
+
 
 
 
