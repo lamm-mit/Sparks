@@ -1,5 +1,5 @@
 # Sparks
-## Multi-modal, multi-agent AI model capable of independently conducting research by formulating hypotheses, performing experiments, adapting its strategy, and report writing.
+## Multi-modal, multi-agent AI model capable of independently conducting research by formulating hypotheses, performing experiments, adapting its strategy, and writing report.
 A. Ghafarollahi, M.J. Buehler*
 
 Massachusetts Institute of Technology
