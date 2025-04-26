@@ -16,10 +16,7 @@ Applied to protein science, Sparks uncovered two previously unknown phenomena: (
 
 These findings emerged from fully self-directed reasoning cycles that combined generative sequence design, high-accuracy structure prediction and physics-aware property models, with paired generation-and-reflection agents enforcing self-correction and reproducibility. The key result is that  Sparks can independently conduct rigorous scientific inquiry and identify previously unknown scientific principles.
 
-## Multi-modal, multi-agent AI model capable of independently conducting research by formulating hypotheses, performing experiments, and adapting its strategy.
-
-
-
+## Model Overview
 
 ![Fig 1](https://github.com/user-attachments/assets/cfab1fe2-f8df-4d32-9c5a-dcd11b157d9a)
 
