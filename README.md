@@ -4,12 +4,16 @@
 
 # SPARKS
 
+Advances in artificial intelligence (AI) promise autonomous discovery, yet most systems still resurface knowledge latent in their training data. We present Sparks, a multi-modal multi-agent AI model that executes the entire discovery cycle that includes hypothesis generation, experiment design and iterative refinement to develop generalizable principles and a report without human intervention.
+
 ## Multi-modal, multi-agent AI model capable of independently conducting research by formulating hypotheses, performing experiments, and adapting its strategy.
 A. Ghafarollahi, M.J. Buehler*
 
 Massachusetts Institute of Technology
 
 *mbuehler@MIT.EDU
+
+
 
 ![Fig 1](https://github.com/user-attachments/assets/cfab1fe2-f8df-4d32-9c5a-dcd11b157d9a)
 
