@@ -6,4 +6,4 @@ Massachusetts Institute of Technology
 
 *mbuehler@MIT.EDU
 
-
+![model_overview](https://github.com/user-attachments/assets/cfab1fe2-f8df-4d32-9c5a-dcd11b157d9a)
