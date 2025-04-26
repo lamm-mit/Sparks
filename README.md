@@ -7,4 +7,4 @@ Massachusetts Institute of Technology
 *mbuehler@MIT.EDU
 
 
-![Fig 1](https://github.com/user-attachments/files/19924066/model_overview_1.pdf)
+![Fig_1](https://github.com/user-attachments/assets/3cae1052-427a-407c-8c9d-629111a3c070)
