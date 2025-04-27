@@ -2,7 +2,13 @@
   <img src="https://github.com/user-attachments/assets/beb49b33-82d2-4421-bcbe-0a604588fc0d" width="300" alt="SPARKS"/>
 </div>
 
-<h1 align="center">SPARKS --- HHI</h1>
+<div align="center">
+
+# SPARKS
+---
+Novel Scientific Discovery
+
+</div>
 <h2 align="center">Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles</h2>
 
 A. Ghafarollahi, M.J. Buehler*
