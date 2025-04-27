@@ -2,7 +2,8 @@
   <img src="https://github.com/user-attachments/assets/beb49b33-82d2-4421-bcbe-0a604588fc0d" width="300" alt="SPARKS"/>
 </div>
 
-<h1 align="center">SPARKS \n Artificial Intelligence Discovers Protein Design Principles</h1>
+<h1 align="center">SPARKS</h1>
+<h3 align="center">Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles</h3>
 
 A. Ghafarollahi, M.J. Buehler*
 
