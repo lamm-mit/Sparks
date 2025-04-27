@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">SPARKS</h1>
-<h3 align="center">Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles</h3>
+<h1 align="center">Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles</h1>
 
 A. Ghafarollahi, M.J. Buehler*
 
