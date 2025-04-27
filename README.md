@@ -3,6 +3,7 @@
 </div>
 
 <h1 align="center">SPARKS</h1>
+Sparks: Artificial Intelligence Discovers Protein Design Principles
 
 A. Ghafarollahi, M.J. Buehler*
 
