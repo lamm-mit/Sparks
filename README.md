@@ -1,9 +1,8 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/beb49b33-82d2-4421-bcbe-0a604588fc0d" width="300" alt="SPARKS"/>
 </div>
-<div align="center">
+
 # SPARKS
-</div>
 
 A. Ghafarollahi, M.J. Buehler*
 
