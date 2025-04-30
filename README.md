@@ -28,11 +28,6 @@ Figure 1. **Overview of Sparks, a multi-agent AI model for automated scientific 
 ### Codes
 This repository contains code for .
 
-The notebook files ```SciAgents_ScienceDiscovery_GraphReasoning_non-automated.ipynb``` and ```SciAgents_ScienceDiscovery_GraphReasoning_automated.ipynb``` in the Notebooks directory correspond to the non-automated and automated multi-agent frameworks, respectively, as explained in the accompanying paper.
-
-The automated multi-agent model is implemented with [AG2](https://github.com/ag2ai/ag2?tab=readme-ov-file) (Formerly AutoGen), an open-source ecosystem for agent-based AI modeling. 
-This project is also collected in [Build with AG2](https://github.com/ag2ai/build-with-ag2), you can checkout more projects built with AG2.
-
 ### Original paper
 
 Please cite this work as:
