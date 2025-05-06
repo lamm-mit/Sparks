@@ -1,0 +1,95 @@
+structure          STRUCTURE_DUMMY.PSF
+coordinates        COORDINATES_DUMMY.PDB
+
+set temperature    TEMPERATURE_DUMMY ;# target temperature used several times below
+set outputname     OUTPUTNAME_DUMMY   ;# base name for output from this run
+
+#temperature        $temperature;  # initial temperature
+
+# firsttimestep is a command, not a variable, so we don't use 'set' here
+firsttimestep      0
+
+
+
+#SIMULATION PARAMETERS
+
+# continuing a run
+set inputname      INPUTNAME_DUMMY          ;# only need to edit this in one place!
+binCoordinates     $inputname.restart.coor  ;# coordinates from last run (binary)
+binVelocities      $inputname.restart.vel   ;# velocities from last run (binary)
+extendedSystem	   $inputname.restart.xsc   ;# cell dimensions from last run
+
+restartfreq         500     ;# 500 steps = every 1ps
+dcdfreq             500
+xstFreq             500
+
+outputName          $outputname
+outputEnergies      200     ;# 100 steps = every 0.2 ps
+outputTiming        500     ;# shows time per step and time to completion
+
+
+# Force-Field Parameters
+paraTypeCharmm	    on
+parameters          par_all36_prot_carb_lipid.prm
+parameters          toppar_water_ions.mod.str
+parameters          toppar_all36_carb_glycopeptide.str
+
+
+# These are specified by CHARMM
+exclude             scaled1-4
+1-4scaling          1.0
+switching           on
+
+# You have some freedom choosing the cutoff
+cutoff              12. ;# may use smaller, maybe 10., with PME
+switchdist          10. ;# cutoff - 2.
+
+# Promise that atom won't move more than 2A in a cycle
+pairlistdist        14. ;# cutoff + 2.
+# stepspercycle is the number of cycles after which namd will 
+# update the pairlistdist  
+stepspercycle       20
+
+# Integrator Parameters
+timestep            2.0  ;# 1fs/step
+rigidBonds          all  ;# needed for 2fs steps
+nonbondedFreq       1    ;# nonbonded forces every step
+fullElectFrequency  2    ;# PME only every other step
+pairlistsperCycle   2
+
+#PME
+PME                 yes
+PMEGridSpacing      1.0
+
+# Constant Temperature Control
+langevin            on            ;# langevin dynamics
+langevinDamping     1.            ;# damping coefficient of 1/ps
+langevinTemp        $temperature  ;# random noise at this level
+langevinHydrogen    no            ;# don't couple bath to hydrogens
+
+# Periodic Boundary conditions
+cellBasisVector1 CellBasisVector1_DUMMY
+cellBasisVector2 CellBasisVector2_DUMMY
+cellBasisVector3 CellBasisVector3_DUMMY
+cellOrigin CellOrigin_DUMMY
+
+
+wrapWater           on              ;# wrap water to central cell
+wrapAll             on              ;# wrap other molecules too
+wrapNearest         off             ;# use for non-rectangular cells
+
+# Pressure control
+langevinPiston        on
+langevinPistonTarget  1.01325      ;# pressure in bar -> 1 atm
+langevinPistonPeriod  100.         ;# oscillation period around 100 fs
+langevinPistonDecay   50.          ;# oscillation decay time of 50 fs
+langevinPistonTemp    $temperature ;# coupled to heat bath
+useGroupPressure      yes ;# needed for rigidBonds
+useFlexibleCell       no
+useConstantArea       no
+
+
+
+#minimize            10000          ;# lower potential energy for 10000 steps
+reinitvels          $temperature  ;# since minimization zeros velocities
+run 50000 ;# 1ns=500000
