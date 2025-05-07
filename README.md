@@ -35,7 +35,12 @@ The inputs to the model are
 - query: user-defined query outlining the research goal.
 - tools: Custom tools defined by the user that the model has access to to test the research ideas.
 - constraints: the constrainsts that the model should consider during the testing phase of the idea.
-- 
+
+### Notes on Tools
+The tools are stored as Python functions in the ```functions.py```. The model is notified my these tools in the  ```launch_Sparks.ipynb``` through the text description defining the tools description, the inputs, and the output. 
+
+To tailor Sparks for your cases, you should (a) define your tool in ```functions.py``` and (b) describe the tool in  ```launch_Sparks.ipynb```.
+
 
 ### Original paper
 
