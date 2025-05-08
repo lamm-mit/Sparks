@@ -1,0 +1,26 @@
+# Chroma
+generate-chroma
+
+# Core libraries
+numpy==1.26.4
+scipy
+pandas
+matplotlib
+
+# torch
+transformers>=4.24.0
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+torchaudio==2.2.2+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# llm
+openai
+
+# bio
+Biopython
+mdanalysis
+
+# Jupyter (optional for notebooks)
+jupyterlab
+
