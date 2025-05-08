@@ -72,7 +72,7 @@ Sparks relies on user-defined tools to validate research ideas. Here's how to de
 
 This description is how Sparks "understands" what each tool does.
 
-**To adapt Sparks for your use case, just update functions.py with your tools and modify launch_Sparks.ipynb to include their descriptions.**
+**To adapt Sparks for your use case, just update ```functions.py``` with your tools and modify ```launch_Sparks.ipynb``` to include their descriptions.**
 
 ### Original paper
 
