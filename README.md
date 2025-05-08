@@ -78,7 +78,7 @@ This description is how Sparks "understands" what each tool does.
 
 Please cite this work as:
 ```
-@misc{ghafarollahi2025sparksmultiagentartificialintelligence,
+@article{ghafarollahi2025sparksmultiagentartificialintelligence,
       title={Sparks: Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles}, 
       author={Alireza Ghafarollahi and Markus J. Buehler},
       year={2025},
