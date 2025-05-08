@@ -55,12 +55,12 @@ This notebook takes the following inputs:
 ### Defining Custom Tools
 Sparks relies on user-defined tools to validate research ideas. Here's how to define and connect them:
 
-- 1- **Define your tools** as Python functions in the file:
+1. **Define your tools** as Python functions in the file:
   ```
   functions.py
   ```
 
-- 2- **Describe each tool** in the ```launch_Sparks.ipynb``` notebook, including:
+2. **Describe each tool** in the ```launch_Sparks.ipynb``` notebook, including:
 
 - The tool's name
 
