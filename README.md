@@ -35,22 +35,44 @@ conda activate Sparks
 pip install -r requirements.txt
 ```
 
-### Codes
-This repository contains code for launching Sparks. 
+### Launching Sparks
+This repository provides code for running Sparks, a system for automated scientific discovery.
 
-Use the notebook file ```launch_Sparks.ipynb``` in the main directory to launch Sparks for scientific discovery.
+To launch Sparks, open and run the notebook in the main directory:
 
-The inputs to the model are 
+```
+launch_Sparks.ipynb
+```
+This notebook takes the following inputs:
 
-- query: user-defined query outlining the research goal.
-- tools: Custom tools defined by the user that the model has access to to test the research ideas.
-- constraints: the constrainsts that the model should consider during the testing phase of the idea.
+- ```query```: A user-defined research question or goal.
 
-### Notes on Tools
-The tools are stored as Python functions in the ```functions.py```. The model is notified my these tools in the  ```launch_Sparks.ipynb``` through the text description defining the tools description, the inputs, and the output. 
+- ```tools```: Custom Python functions (defined by the user) that Sparks can call to test ideas.
 
-To tailor Sparks for your cases, you should (a) define your tool in ```functions.py``` and (b) describe the tool in  ```launch_Sparks.ipynb```.
+- ```constraints```: Optional conditions (defined by the user) that should be respected when Sparks evaluates hypotheses.
 
+
+### Defining Custom Tools
+Sparks relies on user-defined tools to validate research ideas. Here's how to define and connect them:
+
+- 1- **Define your tools** as Python functions in the file:
+  ```
+  functions.py
+  ```
+
+- 2- **Describe each tool** in the ```launch_Sparks.ipynb``` notebook, including:
+
+- The tool's name
+
+- A brief description of its purpose
+
+- Its input parameters
+
+- Its expected output
+
+This description is how Sparks "understands" what each tool does.
+
+**To adapt Sparks for your use case, just update functions.py with your tools and modify launch_Sparks.ipynb to include their descriptions.**
 
 ### Original paper
 
