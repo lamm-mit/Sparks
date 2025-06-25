@@ -79,7 +79,7 @@ This description is how Sparks "understands" what each tool does.
 Please cite this work as:
 ```
 @article{ghafarollahi2025sparksmultiagentartificialintelligence,
-      title={Sparks: Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles}, 
+      title={Sparks, a Multi-Agent AI Model for Automated End-to-End Scientific Discovery}, 
       author={Alireza Ghafarollahi and Markus J. Buehler},
       year={2025},
       eprint={2504.19017},
